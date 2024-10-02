@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact_css.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+ <body>
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h3>Send us a message</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="7a015f19-ca80-47f0-9522-b5f1d5c2a223">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="phone" placeholder="Your Contact Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-phone"></i>+91 9353859316</p>
+                    <p><i class="fas fa-phone"></i>+91 9880830225</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ </body>
+ </html>
