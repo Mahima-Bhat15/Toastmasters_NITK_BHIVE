@@ -5,7 +5,7 @@ body,html{
     scroll-behavior: smooth;
 }
 .header_top {
-        background: url('images/final_logo.png') center;
+        background: url('final_logo.png') center;
         background-repeat: no-repeat;
         background-size: contain; /* Ensures the logo fits well */
         height: 150px; /* Adjust the height of the header to fit the logo */
